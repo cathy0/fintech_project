@@ -1,7 +1,7 @@
 # 永豐金控-AI挑選最佳基金
 - [專案概要](#專案概要)
-  - [問題介紹](#問題介紹-)
-  - [主要方法](#主要方法-)
+  - [問題介紹](#問題介紹)
+  - [主要方法](#主要方法)
 - [挑選基金的策略](#挑選基金的策略)
   - [傳統法則](#傳統法則)
   - [機器學習](#機器學習)
@@ -23,16 +23,17 @@
 ## 傳統法則
 依據基金過去的表現，挑選預期未來有潛力的基金，我們在這邊用了兩個Rule-based策略，分別是4433法則及3163法則。我們依據法則挑選符合條件的基金，再選取sharpe ratio最高的五檔基金。
 
-傳統法則-4433法則
-![image](https://github.com/cathy0/fintech_project/blob/main/4433.png)
-傳統法則-3163法則
-![image](https://github.com/cathy0/fintech_project/blob/main/3163.png)
+
+<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/4433.png" alt="傳統法則-4433法則 示意圖"/></div>
+
+<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/4433.png" alt="傳統法則-3163法則 示意圖"/></div>
   
 
 ## 機器學習
 利用處理後的淨值資料計算報酬率後，計算出13個特徵值，將特徵值進行特徵工程。模型所使用的特徵工程為PCA主成份分析及StandardScaler標準化，主要目的是篩選出關鍵的特徵值，讓模型能夠快速收斂。再將特徵值丟入設計好的模型中訓練，並使用模型預測基金報酬率並選出未來報酬率最高的五檔基金。
 
-![image](https://github.com/cathy0/fintech_project/blob/main/ml.png)
+
+<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/ml.png" alt="傳統法則-4433法則 示意圖"/></div>
 
 >[回目錄](#永豐金控-AI挑選最佳基金)
 
