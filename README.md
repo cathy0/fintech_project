@@ -26,14 +26,14 @@
 
 <div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/4433.png" alt="傳統法則-4433法則 示意圖"/></div>
 
-<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/4433.png" alt="傳統法則-3163法則 示意圖"/></div>
+<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/3163.png" alt="傳統法則-3163法則 示意圖"/></div>
   
 
 ## 機器學習
 利用處理後的淨值資料計算報酬率後，計算出13個特徵值，將特徵值進行特徵工程。模型所使用的特徵工程為PCA主成份分析及StandardScaler標準化，主要目的是篩選出關鍵的特徵值，讓模型能夠快速收斂。再將特徵值丟入設計好的模型中訓練，並使用模型預測基金報酬率並選出未來報酬率最高的五檔基金。
 
 
-<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/ml.png" alt="傳統法則-4433法則 示意圖"/></div>
+<div align=center><img width="70%" src="https://github.com/cathy0/fintech_project/blob/main/ml.png" alt="機器學習 示意圖"/></div>
 
 >[回目錄](#永豐金控-AI挑選最佳基金)
 
