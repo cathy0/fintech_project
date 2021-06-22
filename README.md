@@ -41,9 +41,13 @@
 ### 簡報
 [簡報]()
 ### 3分鐘影片
-[3分鐘影片]()
+
+[![](3min影片.PNG)](https://www.youtube.com/embed/GyuDfw4FKzg)
+
 ### 15分鐘影片
-[15分鐘影片]()
+
+[![](15min影片.PNG)](https://youtu.be/9TEgCBaxdiM)
+
 ### 策略選擇excel檔
 [策略選擇excel檔]()
 
